@@ -1,0 +1,3 @@
+drivers/pci/controller/pcie-altera.ko
+drivers/pci/controller/pcie-altera-msi.ko
+drivers/pci/controller/pcie-mediatek.ko

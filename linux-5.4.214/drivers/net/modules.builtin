@@ -1,0 +1,17 @@
+drivers/net/mii.ko
+drivers/net/tun.ko
+drivers/net/xen-netfront.ko
+drivers/net/ethernet/broadcom/bgmac.ko
+drivers/net/ethernet/broadcom/bgmac-platform.ko
+drivers/net/ethernet/freescale/fec.ko
+drivers/net/ethernet/freescale/xgmac_mdio.ko
+drivers/net/ethernet/freescale/fman/fsl_dpaa_fman.ko
+drivers/net/ethernet/freescale/fman/fsl_dpaa_fman_port.ko
+drivers/net/ethernet/freescale/fman/fsl_dpaa_mac.ko
+drivers/net/ethernet/smsc/smc91x.ko
+drivers/net/phy/libphy.ko
+drivers/net/phy/mdio-mux.ko
+drivers/net/phy/mdio-mux-bcm-iproc.ko
+drivers/net/phy/fixed_phy.ko
+drivers/net/ppp/ppp_generic.ko
+drivers/net/slip/slhc.ko

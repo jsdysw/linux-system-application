@@ -1,0 +1,5 @@
+drivers/net/ethernet/freescale/fec.ko
+drivers/net/ethernet/freescale/xgmac_mdio.ko
+drivers/net/ethernet/freescale/fman/fsl_dpaa_fman.ko
+drivers/net/ethernet/freescale/fman/fsl_dpaa_fman_port.ko
+drivers/net/ethernet/freescale/fman/fsl_dpaa_mac.ko
