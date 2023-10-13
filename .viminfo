@@ -15,9 +15,9 @@
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1697187992,,"q"
+|2,0,1697188699,,"q"
 :wq
-|2,0,1697187390,,"wq"
+|2,0,1697188681,,"wq"
 :qa
 |2,0,1697186566,,"qa"
 :tj vfs_read
@@ -48,28 +48,38 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/linux-5.4.214/.gitignore
-|4,48,1,0,1697187992,"~/linux-5.4.214/.gitignore"
-'1  1  0  ~/.gitignore
-|4,49,1,0,1697187390,"~/.gitignore"
-'2  446  0  ~/linux-5.4.214/fs/read_write.c
-|4,50,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
-'3  6  22  ~/syscall_example.c
-|4,51,6,22,1697186288,"~/syscall_example.c"
-'4  10  0  ~/syscall_example.c
-|4,52,10,0,1697186236,"~/syscall_example.c"
-'5  10  0  ~/syscall_example.c
-|4,53,10,0,1697186236,"~/syscall_example.c"
-'6  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,54,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
-'7  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,55,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
-'8  178  0  ~/linux-5.4.214/include/linux/syscalls.h
-|4,56,178,0,1697167592,"~/linux-5.4.214/include/linux/syscalls.h"
-'9  178  0  ~/linux-5.4.214/include/linux/syscalls.h
-|4,57,178,0,1697167592,"~/linux-5.4.214/include/linux/syscalls.h"
+'0  1  6  ~/.gitignore
+|4,48,1,6,1697188699,"~/.gitignore"
+'1  1  6  ~/.gitignore
+|4,49,1,6,1697188681,"~/.gitignore"
+'2  1  0  ~/linux-5.4.214/.gitignore
+|4,50,1,0,1697187992,"~/linux-5.4.214/.gitignore"
+'3  1  0  ~/.gitignore
+|4,51,1,0,1697187390,"~/.gitignore"
+'4  1  0  ~/.gitignore
+|4,52,1,0,1697187390,"~/.gitignore"
+'5  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,53,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+'6  6  22  ~/syscall_example.c
+|4,54,6,22,1697186288,"~/syscall_example.c"
+'7  10  0  ~/syscall_example.c
+|4,55,10,0,1697186236,"~/syscall_example.c"
+'8  10  0  ~/syscall_example.c
+|4,56,10,0,1697186236,"~/syscall_example.c"
+'9  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
+|4,57,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
 
 # Jumplist (newest first):
+-'  1  6  ~/.gitignore
+|4,39,1,6,1697188699,"~/.gitignore"
+-'  1  6  ~/.gitignore
+|4,39,1,6,1697188681,"~/.gitignore"
+-'  1  0  ~/linux-5.4.214/.gitignore
+|4,39,1,0,1697187992,"~/linux-5.4.214/.gitignore"
+-'  1  0  ~/linux-5.4.214/.gitignore
+|4,39,1,0,1697187992,"~/linux-5.4.214/.gitignore"
+-'  1  0  ~/linux-5.4.214/.gitignore
+|4,39,1,0,1697187992,"~/linux-5.4.214/.gitignore"
 -'  1  0  ~/linux-5.4.214/.gitignore
 |4,39,1,0,1697187992,"~/linux-5.4.214/.gitignore"
 -'  1  0  ~/.gitignore
@@ -84,6 +94,54 @@
 |4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
 -'  446  0  ~/linux-5.4.214/fs/read_write.c
 |4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  446  0  ~/linux-5.4.214/fs/read_write.c
+|4,39,446,0,1697186566,"~/linux-5.4.214/fs/read_write.c"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
+-'  1  0  ~/linux-5.4.214/tags
+|4,39,1,0,1697186559,"~/linux-5.4.214/tags"
 -'  1  0  ~/linux-5.4.214/tags
 |4,39,1,0,1697186559,"~/linux-5.4.214/tags"
 -'  1  0  ~/linux-5.4.214/tags
@@ -108,6 +166,54 @@
 |4,39,6,22,1697186288,"~/syscall_example.c"
 -'  6  22  ~/syscall_example.c
 |4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
+-'  6  22  ~/syscall_example.c
+|4,39,6,22,1697186288,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
 |4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
@@ -125,164 +231,62 @@
 -'  10  0  ~/syscall_example.c
 |4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
+|4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
+|4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
+|4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
+|4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
+|4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
+|4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
+|4,39,10,0,1697186278,"~/syscall_example.c"
 -'  10  0  ~/syscall_example.c
-|4,39,10,0,1697186236,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  1  0  ~/syscall_example.c
-|4,39,1,0,1697186233,"~/syscall_example.c"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  856  0  ~/linux-5.4.214/include/uapi/asm-generic/unistd.h
-|4,39,856,0,1697167743,"~/linux-5.4.214/include/uapi/asm-generic/unistd.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
--'  1225  32  ~/linux-5.4.214/include/linux/syscalls.h
-|4,39,1225,32,1697167732,"~/linux-5.4.214/include/linux/syscalls.h"
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
+-'  10  0  ~/syscall_example.c
+|4,39,10,0,1697186278,"~/syscall_example.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1697188699	0
+	"	1	6
+	^	1	7
+	.	9	6
+	+	62	8
+	+	1	10
+	+	9	6
+	+	8	4
+	+	9	6
 
 > ~/linux-5.4.214/.gitignore
 	*	1697187990	0
 	"	1	0
-
-> ~/.gitignore
-	*	1697187389	0
-	"	1	0
-	^	52	9
-	.	52	8
-	+	52	8
 
 > ~/linux-5.4.214/fs/read_write.c
 	*	1697186563	0

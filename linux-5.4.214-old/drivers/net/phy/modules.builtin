@@ -1,4 +1,0 @@
-drivers/net/phy/libphy.ko
-drivers/net/phy/mdio-mux.ko
-drivers/net/phy/mdio-mux-bcm-iproc.ko
-drivers/net/phy/fixed_phy.ko

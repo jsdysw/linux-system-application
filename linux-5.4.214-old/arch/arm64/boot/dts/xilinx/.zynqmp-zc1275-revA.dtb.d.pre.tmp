@@ -1,3 +1,0 @@
-zynqmp-zc1275-revA.o: arch/arm64/boot/dts/xilinx/zynqmp-zc1275-revA.dts \
- arch/arm64/boot/dts/xilinx/zynqmp.dtsi \
- arch/arm64/boot/dts/xilinx/zynqmp-clk.dtsi

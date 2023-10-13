@@ -1,8 +1,0 @@
-drivers/net/ethernet/broadcom/bgmac.ko
-drivers/net/ethernet/broadcom/bgmac-platform.ko
-drivers/net/ethernet/freescale/fec.ko
-drivers/net/ethernet/freescale/xgmac_mdio.ko
-drivers/net/ethernet/freescale/fman/fsl_dpaa_fman.ko
-drivers/net/ethernet/freescale/fman/fsl_dpaa_fman_port.ko
-drivers/net/ethernet/freescale/fman/fsl_dpaa_mac.ko
-drivers/net/ethernet/smsc/smc91x.ko

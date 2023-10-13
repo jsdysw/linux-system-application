@@ -1,3 +1,0 @@
-drivers/mmc/core/mmc_core.ko
-drivers/mmc/core/mmc_block.ko
-drivers/mmc/host/armmmci.ko

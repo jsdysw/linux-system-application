@@ -1,4 +1,0 @@
-drivers/ata/libata.ko
-drivers/ata/ahci_imx.ko
-drivers/ata/libahci.ko
-drivers/ata/libahci_platform.ko

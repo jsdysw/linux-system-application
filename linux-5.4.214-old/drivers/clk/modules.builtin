@@ -1,8 +1,0 @@
-drivers/clk/meson/meson-aoclk.ko
-drivers/clk/meson/clk-cpu-dyndiv.ko
-drivers/clk/meson/clk-dualdiv.ko
-drivers/clk/meson/meson-eeclk.ko
-drivers/clk/meson/clk-mpll.ko
-drivers/clk/meson/clk-pll.ko
-drivers/clk/meson/clk-regmap.ko
-drivers/clk/meson/vid-pll-div.ko
