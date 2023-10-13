@@ -1,0 +1,3 @@
+drivers/firmware/raspberrypi.ko
+drivers/firmware/ti_sci.ko
+drivers/firmware/efi/efivars.ko

@@ -1,0 +1,4 @@
+drivers/pinctrl/pinctrl-as3722.ko
+drivers/pinctrl/pinctrl-amd.ko
+drivers/pinctrl/pinctrl-palmas.ko
+drivers/pinctrl/pinctrl-single.ko

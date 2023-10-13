@@ -1,6 +1,7 @@
 drivers/tty/serial/serial_core.ko
 drivers/tty/serial/amba-pl011.ko
 drivers/tty/serial/max310x.ko
+drivers/tty/serial/sh-sci.ko
 drivers/tty/serial/imx.ko
 drivers/tty/serial/meson_uart.ko
 drivers/tty/serial/sccnxp.ko
