@@ -215,9 +215,11 @@ out:
 	return ret;
 }
 #endif
+// Seokwon Customizing : start 
+#include "calclock.h"
 
 static ssize_t
-pxt4_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
+pxt4_file_write_iter_internal(struct kiocb *iocb, struct iov_iter *from)
 {
 	struct inode *inode = file_inode(iocb->ki_filp);
 	int o_direct = iocb->ki_flags & IOCB_DIRECT;
@@ -286,6 +288,24 @@ out:
 	inode_unlock(inode);
 	return ret;
 }
+
+unsigned long long file_write_iter_time, file_write_iter_count;
+static ssize_t
+pxt4_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
+{
+
+        ssize_t ret;
+        struct timespec myclock[2];
+
+        getrawmonotonic(&myclock[0]);
+        ret = pxt4_file_write_iter_internal(iocb, from);
+        getrawmonotonic(&myclock[1]);
+        calclock(myclock, &file_write_iter_time, &file_write_iter_count);
+
+        return ret;
+}
+
+// Seokwon Customizing : end
 
 #ifdef CONFIG_FS_DAX
 static vm_fault_t pxt4_dax_huge_fault(struct vm_fault *vmf,
