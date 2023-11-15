@@ -6334,6 +6334,42 @@ out7:
 	return err;
 }
 
+#include "ds_monitoring.h"
+
+DECLARE_DS_MONITORING(thread_dm);
+
+void print_ds_monitoring(struct ds_monitoring *dm)
+{
+        unsigned long cur_idx;
+        void *cur;
+        char *cur_name;
+        unsigned long long cur_count;
+        int percentage;
+        if (!dm->total_counts)
+                return;
+
+        xa_for_each(dm->elements, cur_idx, cur) {
+                cur_name = ((struct ds_monitoring_elem *)cur)->name;
+                cur_count = ((struct ds_monitoring_elem *)cur)->count;
+                percentage = cur_count * 100 / dm->total_counts;
+                dm->dm_ops->print_elem(cur_idx, cur_name, cur_count, percentage);
+        }
+}
+
+
+void delete_ds_monitoring(struct ds_monitoring *dm)
+{
+        unsigned long cur_idx;
+        void *cur;
+        char *cur_name;
+        xa_for_each(dm->elements, cur_idx, cur) {
+                cur_name = ((struct ds_monitoring_elem*)cur)->name;
+                kfree(cur_name);
+                kfree(cur);
+        }
+        xa_destroy(dm->elements);
+}
+
 extern unsigned long long file_write_iter_time, file_write_iter_count;
 static void __exit pxt4_exit_fs(void)
 {
@@ -6350,7 +6386,9 @@ static void __exit pxt4_exit_fs(void)
 	pxt4_exit_es();
 	pxt4_exit_pending();
 
-	printk("pxt4_file_write_iter is called %llu times and the time interval is %lluns\n",
+	print_ds_monitoring(&thread_dm);
+	delete_ds_monitoring(&thread_dm);
+ 	printk("pxt4_file_write_iter is called %llu times and the time interval is %lluns\n",
 			file_write_iter_count, file_write_iter_time);
 }
 
