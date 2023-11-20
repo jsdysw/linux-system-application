@@ -54,6 +54,7 @@
 #include "acl.h"
 #include "mballoc.h"
 #include "fsmap.h"
+#include "calclock.h"
 
 #define CREATE_TRACE_POINTS
 #include <trace/events/pxt4.h>
@@ -6371,7 +6372,7 @@ void delete_ds_monitoring(struct ds_monitoring *dm)
 }
 
 extern unsigned long long file_write_iter_time, file_write_iter_count;
-KTDEF(pxt4_file_write_iter_internal);
+KTDEF(pxt4_file_write_iter);
 static void __exit pxt4_exit_fs(void)
 {
 	pxt4_destroy_lazyinit_thread();
@@ -6389,7 +6390,7 @@ static void __exit pxt4_exit_fs(void)
 
 	print_ds_monitoring(&thread_dm);
 	delete_ds_monitoring(&thread_dm);
-	ktprint(1, pxt4_file_write_iter_internal);
+	ktprint(1, pxt4_file_write_iter);
  	// printk("pxt4_file_write_iter is called %llu times and the time interval is %lluns\n", file_write_iter_count, file_write_iter_time);
 }
 

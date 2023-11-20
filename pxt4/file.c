@@ -361,7 +361,7 @@ pxt4_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
         ssize_t ret;
         
 	// struct timespec myclock[2];
-	ktime_tstopwatch[2];
+	ktime_t stopwatch[2];
         
 	// getrawmonotonic(&myclock[0]);
         ktget(&stopwatch[0]);
