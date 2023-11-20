@@ -352,8 +352,8 @@ out:
 	return ret;
 }
 
-unsigned long long file_write_iter_time, file_write_iter_count;
-KTDEF(pxt4_file_write_iter_internal);
+// unsigned long long file_write_iter_time, file_write_iter_count;
+KTDEF(pxt4_file_write_iter);
 static ssize_t
 pxt4_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
 {
@@ -372,7 +372,7 @@ pxt4_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
         ktget(&stopwatch[1]);
 	
 	// calclock(myclock, &file_write_iter_time, &file_write_iter_count);
-	ktput(stopwatch, pxt4_file_write_iter_internal);
+	ktput(stopwatch, pxt4_file_write_iter);
 	
 	find_ds_monitoring(&thread_dm, current);
         return ret;

@@ -6371,8 +6371,8 @@ void delete_ds_monitoring(struct ds_monitoring *dm)
         xa_destroy(dm->elements);
 }
 
-extern unsigned long long file_write_iter_time, file_write_iter_count;
-KTDEF(pxt4_file_write_iter);
+// extern unsigned long long file_write_iter_time, file_write_iter_count;
+KTDEC(pxt4_file_write_iter);
 static void __exit pxt4_exit_fs(void)
 {
 	pxt4_destroy_lazyinit_thread();
@@ -6391,7 +6391,7 @@ static void __exit pxt4_exit_fs(void)
 	print_ds_monitoring(&thread_dm);
 	delete_ds_monitoring(&thread_dm);
 	ktprint(1, pxt4_file_write_iter);
- 	// printk("pxt4_file_write_iter is called %llu times and the time interval is %lluns\n", file_write_iter_count, file_write_iter_time);
+	// printk("pxt4_file_write_iter is called %llu times and the time interval is %lluns\n", file_write_iter_count, file_write_iter_time);
 }
 
 MODULE_AUTHOR("Remy Card, Stephen Tweedie, Andrew Morton, Andreas Dilger, Theodore Ts'o and others");
