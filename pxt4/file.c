@@ -353,6 +353,8 @@ out:
 }
 
 unsigned long long file_write_iter_time, file_write_iter_count;
+ssize_t __pxt4_generic_file_write_iter(struct kiocb *iocb, struct iov_iter *from);
+
 // KTDEF(pxt4_file_write_iter_internal);
 static ssize_t
 pxt4_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
@@ -366,8 +368,9 @@ pxt4_file_write_iter(struct kiocb *iocb, struct iov_iter *from)
 	getrawmonotonic(&myclock[0]);
         // ktget(&stopwatch[0]);
 	
-	ret = pxt4_file_write_iter_internal(iocb, from);
-        
+	// ret = pxt4_file_write_iter_internal(iocb, from);
+        ret = __pxt4_generic_file_write_iter(iocb, from);
+
 	getrawmonotonic(&myclock[1]);
         // ktget(&stopwatch[1]);
 	

@@ -8,7 +8,7 @@ direct=0
 numjobs=4
 verify=meta
 
-[fio-test]G
+[fio-test]
 size=3G
 ;ioengine=libaio
 group_reporting
